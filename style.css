@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.card-description ul li {
+  font-size: 10px;
+  margin-top: 4px;
+}
+
 .container {
-  max-width: 80rem;
+  max-width: 72rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+section {
+  padding-top: 7rem;
+}
+
+.tech-list ul li {
+  list-style-type: disc;
+  font-weight: 300;
+  margin-left: 18px;
 }
