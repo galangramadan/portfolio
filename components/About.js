@@ -4,7 +4,7 @@ export function About() {
   container.setAttribute("id", "about");
   container.setAttribute(
     "class",
-    "container mx-auto flex flex-col lg:flex-row pt-44 lg:pt-80 lg:pb-20"
+    "container mx-auto flex flex-col lg:flex-row pt-44 lg:pt-72 lg:pb-20"
   );
 
   container.innerHTML = `

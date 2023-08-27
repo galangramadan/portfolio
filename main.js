@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Work } from "./components/Work";
 import { mobileNavbarToggle } from "./utils/mobileNavbarToggle";
 import "./style.css";
+import { Footer } from "./components/Footer";
 
 const app = document.querySelector("#app");
 
@@ -15,5 +16,6 @@ render(Header());
 render(About());
 render(Work());
 render(Contact());
+render(Footer());
 
 mobileNavbarToggle();
