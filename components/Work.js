@@ -10,7 +10,7 @@ export function Work() {
       Here are some things i've built.
     </p>
     <div class="pt-12">
-      <h5 class="font-bold text-xl">Vaca</h5>
+      <h5 class="font-bold text-xl lg:w-3/5 lg:text-center">Vaca</h5>
     <div class="flex flex-col lg:flex-row gap-4 pt-6">
       <img
         src="/images/vaca.png"
@@ -34,7 +34,6 @@ export function Work() {
         </div>
       </div>
     </div>
-  </div>
   `;
 
   return container;

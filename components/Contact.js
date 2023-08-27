@@ -14,7 +14,7 @@ export function Contact() {
         Get in touch
       </button>
     </div>
-    `;
+  `;
 
   return container;
 }
