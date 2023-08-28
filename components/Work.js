@@ -21,13 +21,13 @@ export function Work() {
           <p class="text-center">
             A website that provides ebook subscription services.
           </p>
-          <ul class="w-full flex justify-center gap-4 text-sm">
-            <li>Next.js</li>
-            <li>Express</li>
-            <li>MySQL</li>
-          </ul>
         </div>
-        <div class="flex justify-center gap-10 pt-10">
+        <ul class="w-full flex justify-center gap-4 text-sm font-normal pt-8">
+          <li>Next.js</li>
+          <li>Express</li>
+          <li>MySQL</li>
+        </ul>
+        <div class="flex justify-center gap-10 pt-8">
           <span>Link repo</span>
           <span>Link web</span>
         </div>
@@ -46,7 +46,7 @@ export function Work() {
             It's the first ever website I've deployed. You can create an account and write your diary there. Although it's still far from good and lacks features, this project is the one that made me love programming.
           </p>
         </div>
-        <ul class="w-full flex justify-center gap-4 text-sm pt-8">
+        <ul class="w-full flex justify-center gap-4 text-sm font-normal pt-8">
           <li>Javascript</li>
         </ul>
         <div class="flex justify-center gap-10 pt-8">
