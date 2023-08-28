@@ -4,18 +4,20 @@ export function About() {
   container.setAttribute("id", "about");
   container.setAttribute(
     "class",
-    "container mx-auto flex flex-col lg:flex-row pt-44 lg:pt-72 lg:pb-20"
+    "container mx-auto flex flex-col lg:flex-row pt-44 lg:pt-56 lg:pb-20"
   );
 
   container.innerHTML = `
     <div class="lg:w-1/2">
-      <h1 class="text-4xl lg:text-5xl font-black">Galang Ramadan</h1>
-      <p class="text-2xl font-bold">Web developer</p>
+      <h1 class="text-4xl lg:text-5xl font-black">Galang <span class="text-gray-600">Ramadan</span></h1>
+      <p class="text-2xl font-bold pt-4 text-gray-600">Code <span class="text-black">Artisan</span></p>
     </div>
     <div class="pt-20 lg:pt-0 lg:w-1/2 font-medium">
       <p>
-        Back-end development enthusiast. Passionate about combining beautiful
-        code with excellent performance.
+        A dedicated web developer with a focused specialization in back-end development. Driven by a passion for continuously enhancing my skill set, I actively seek out challenging projects that provide opportunities to broaden my horizons.
+      </p>
+      <p class="pt-4">
+        Currently on the lookout for a full-time opportunity, whether it's as a full-stack or back-end web developer.
       </p>
       <h4 class="pt-4">
         Here are some technologies i've been working with recently.

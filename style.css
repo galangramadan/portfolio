@@ -7,11 +7,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.card-description ul li {
-  font-size: 10px;
-  margin-top: 4px;
-}
-
 .container {
   max-width: 72rem;
   padding-left: 1rem;
