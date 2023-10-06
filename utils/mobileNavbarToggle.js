@@ -66,7 +66,6 @@ export function mobileNavbarToggle() {
       navbar.classList.remove("translate-x-full");
       navbar.classList.add("translate-x-0");
       btn.innerHTML = btnClose();
-      console.log(isShow);
     } else {
       navbar.classList.remove("translate-x-0");
       navbar.classList.add("translate-x-full");

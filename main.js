@@ -23,8 +23,7 @@ if (location() == "/") {
   render(Projects());
   render(Contact());
   render(Footer());
+  mobileNavbarToggle();
 } else {
   render(NotFound());
 }
-
-mobileNavbarToggle();
