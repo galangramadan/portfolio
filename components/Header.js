@@ -3,7 +3,7 @@ export function Header() {
 
   container.setAttribute(
     "class",
-    "fixed top-0 left-0 right-0 bg-black text-white"
+    "absolute top-0 left-0 right-0 bg-black text-white"
   );
 
   container.innerHTML = `
@@ -11,11 +11,11 @@ export function Header() {
       <div id="logo">
         <span class="text-2xl font-black">Gyar</span>
       </div>
-      <nav class="fixed top-20 left-0 right-0 lg:static flex pl-4 bg-black translate-x-full lg:translate-x-0 duration-300">
+      <nav class="absolute top-20 left-0 right-0 lg:static flex pl-4 bg-black translate-x-full lg:translate-x-0 duration-300">
         <ul class="flex flex-col lg:flex-row gap-4 pb-4 lg:pb-0 lg:gap-20 font-semibold">
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#projects">Projects</a></li>
+          <li><a href="/#contact">Contact</a></li>
         </ul>
       </nav>
       <div id="mobile-nav" type="button" class="lg:hidden">
