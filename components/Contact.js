@@ -10,7 +10,7 @@ export function Contact() {
       related to business, collaboration, or just want to say hi.
     </p>
     <div class="py-20 flex justify-center items-center">
-      <a href="mailto:galangynr@outlook.com" class="px-4 py-2 border-2 border-black rounded-full font-semibold">
+      <a href="mailto:galangynr@outlook.com" class="px-4 py-2 border-2 border-black hover:border-white hover:bg-black hover:text-white rounded-full font-semibold">
         Get in touch
       </a>
     </div>

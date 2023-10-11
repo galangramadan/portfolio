@@ -13,9 +13,9 @@ export function Header() {
       </div>
       <nav class="absolute top-20 left-0 right-0 lg:static flex pl-4 bg-black translate-x-full lg:translate-x-0 duration-300">
         <ul class="flex flex-col lg:flex-row gap-4 pb-4 lg:pb-0 lg:gap-20 font-semibold">
-          <li><a href="/#about">About</a></li>
-          <li><a href="/#projects">Projects</a></li>
-          <li><a href="/#contact">Contact</a></li>
+          <li><a href="/#about" class="hover:text-gray-300">About</a></li>
+          <li><a href="/#projects" class="hover:text-gray-300">Projects</a></li>
+          <li><a href="/#contact" class="hover:text-gray-300">Contact</a></li>
         </ul>
       </nav>
       <div id="mobile-nav" type="button" class="lg:hidden">
