@@ -48,11 +48,13 @@ document.addEventListener("click", (e) => {
 
     if (href.startsWith("/#")) {
       scrollTo(`${href.substring(1)}`);
-    } else {
+    } else if (href.startsWith("/")) {
       app.innerHTML = initialContent;
       history.pushState(null, null, href);
 
       route();
+    } else {
+      window.open(href);
     }
   }
 });
